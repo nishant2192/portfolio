@@ -1,0 +1,177 @@
+{
+  "main": {
+    "name":"Nishant Patel",
+    "occupation":"Full Stack Developer",
+    "description":"I am a full stack developer, have been working in software industry since past 6 years have transitioned between various technologies.",
+    "image":"profile_pic.jpg",
+    "bio":"Java to Python to Data Science aspect to Front end React Native and now in Vue JS. I love to try new things, amalgamate 2 different tech stack like Python(Django) with Integrated support for React Native. React JS with Fabric JS. Also competitive coding especially i am fond of Code Golfing",
+    "contactmessage":"If you wanna talk to me, feel free to drop me a email or reach out to me on linkedin",
+    "email": "np210291@gmail.com",
+    "phone": "+919581026224",
+    "address":{
+      "street":"Hyd",
+      "city":"Hyderabad",
+      "state":"Telangana",
+      "zip": "500081"
+    },
+    "website": "http://www.kurtesy.tech",
+    "resumedownload":"http://www.kurtesy.tech/mera_parichay",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/kurtesy92",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/np210291",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/nishant-patel-aa754151/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/nishant_kurtesy/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/kurtesy",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Python Developer and JavaScript Developer with total 4+ years of experience in Python and 2+ years of experience in JavaScript. Overall, 6 years of experience in Software Development, Database Development and End to end application deployment.",
+    "education":[
+      {
+        "school":"MANIT, Bhopal",
+        "degree":"Bachelor in Technology - Electronics and communications engineering",
+        "graduated":"May 2014",
+        "description":"Electronics and communications Engineer"
+      },
+      {
+        "school":"IIIT, Bangalore",
+        "degree":"PGD in machine learning with specialization in NLP",
+        "graduated":"March 2018",
+        "description":"Learnt in-demand skills such as Deep Learning, NLP, Reinforcement Learning"
+      }
+    ],
+    "work":[
+      {
+        "company":"Aviso AI",
+        "title":"Senior Full-stack Developer",
+        "years":"April 2020 - Present",
+        "description":"Working as a full stack developer on Aviso app, which provides sales prediction and insights to its clients. My reponsibilities are to develop API on Python and consume them on front end VueJS."
+      },
+      {
+        "company":"Brand Networks",
+        "title":"Senior Software Engineer",
+        "years":"May 2019 - March 2020",
+        "description":"Python; Node.JS; React Native app development from phase-1 (Migration from Ionic-Angular to React native)."
+      },
+      {
+        "company":"GVC Holding",
+        "title":"Senior Software Engineer",
+        "years":"May 2018 - May 2019",
+        "description":"Python; Django; Working on game development on server-side implementation using Python, Redis and Cassandra with Mysql DB. Streamlining game performance using multithreading with Gevent and heavy data processing"
+      },
+      {
+        "company":"Bank of America",
+        "title":"Senior Software Engineer",
+        "years":"September 2016 - May 2018",
+        "description":"Python; Worked on Recon pro application side for Merrill Lynch market data algorithm development and Data science and analytical programming using Numpy, Quartz and Pandas. Along with usage of various Python modules to implement efficient and effective solutions"
+      },
+      {
+        "company":"Teksystems Inc.",
+        "title":"Software Engineer",
+        "years":"June 2014 - September 2016",
+        "description":"Java, Python, PL/SQL, Oracle BI, ODI, MATLAB, SQL Developer"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"75%"
+      },
+      {
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"react-native-touchablewithdebounce",
+        "category":"PurposePrevent the OnPress function to hit the function only once on multiple Touch/Press",
+        "image":"doubletap.jpg",
+        "url":"https://github.com/kurtesy/react-native-touchablewithdebounce"
+      },
+      {
+        "title":"Game Scheduler",
+        "category":"Game Scheduler - Django, Javascipt Fullcalendar.io extension to mimic Google calendar features and more Tech stack Python",
+        "image":"djangocal.jpg",
+        "url":"https://github.com/kurtesy/Python-is-all/tree/master/game-scheduler"
+      },
+      {
+        "title":"React JS App with plugin for FabricJS - Canvas",
+        "category":"React JS App with plugin for FabricJS - Canvas",
+        "image":"react-canvas-js.png",
+        "url":"https://kurtesy.github.io/react-fabric-demo/"
+      },
+      {
+        "title":"Home to Superheros",
+        "category":"React Native app, to fetch you all the superhero data...just a search away",
+        "image":"app_preview.png",
+        "url":"https://github.com/kurtesy/HomeToSuperheros"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
