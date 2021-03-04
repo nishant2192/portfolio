@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
-import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -25,18 +24,14 @@ class App extends Component {
   }
 
   getResumeData(){
-    $.ajax({
-      url:'/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.trace(err);
-        alert(err);
-      }
-    });
+    let url = 'https://raw.githubusercontent.com/kurtesy/portfolio/master/public/resumeData.json'
+    fetch(url).then(response => response.json())
+      .then((jsonData) => {
+        this.setState({resumeData: jsonData});
+      })
+      .catch((error) => {
+        console.error(error)
+      })
   }
 
   componentDidMount(){
