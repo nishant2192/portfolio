@@ -39,7 +39,7 @@ class App extends Component {
   }
 
   render() {
-    console.log('ok', this.state.resumeData.portfolio);
+    // console.log('ok', this.state.resumeData.portfolio);
     return (
       <div className="App">
         <Header data={this.state.resumeData.main}/>

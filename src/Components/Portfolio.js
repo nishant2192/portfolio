@@ -65,7 +65,6 @@ class Portfolio extends Component {
                               style={this.styles.media}
                               image={"images/portfolio/"+ project.image}
                               title="Projects"
-                              alignItems="center"
                             />
                             <CardContent>
                                   <Typography variant="h6" color="textSecondary" component="p">

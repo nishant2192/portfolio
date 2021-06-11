@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from '../Styles/about.scss';
 
 class About extends Component {
   render() {
@@ -17,7 +18,7 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+   <section id="about">
       <div className="row">
          <div className="three columns">
             <img className="profile-pic"  src={profilepic} alt="Nishant Patel Profile Pic" />
@@ -45,6 +46,10 @@ class About extends Component {
                </div>
             </div>
          </div>
+      </div>
+      <div className={styles.timeline}>
+         <h3>Timeline</h3>
+         <iframe title="timeline" width="100%" height="400" src="https://time.graphics/embed?v=1&id=509232" frameBorder="0" allowFullScreen></iframe>
       </div>
 
    </section>

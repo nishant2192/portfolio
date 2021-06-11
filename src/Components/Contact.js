@@ -1,8 +1,26 @@
 import React, { Component } from 'react';
+import Parser from 'rss-parser';
 
 class Contact extends Component {
-  render() {
+  constructor(props) {
+     super(props)
+     this.state = {
+        rssFeeds: []
+     }
+     this.getMyBlogFeeds();
+  }
 
+  
+
+  async getMyBlogFeeds () {
+   let parser = new Parser({defaultRSS: 1.0});
+   const CORS_PROXY = "https://thingproxy.freeboard.io/fetch/"
+   const feed = await parser.parseURL(CORS_PROXY + 'https://kurtesyofacoder.blogspot.com/feeds/posts/default?alt=rss');
+   this.setState({rssFeeds: feed.items.splice(0,3)});
+   return null;
+  }
+
+  render() {
     if(this.props.data){
       var name = this.props.data.name;
       var street = this.props.data.address.street;
@@ -89,24 +107,18 @@ class Contact extends Component {
 				   </div>
 
                <div className="widget widget_tweets">
-                  <h4 className="widget-title">Latest Tweets</h4>
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
+                  <h4 className="widget-title">Latest blog feeds</h4>
+                  <ul id="blog">
+                     {this.state.rssFeeds.map((item,index) => 
+                        <li key={index}>
+                           <b>{item.title}</b>
+                           <br/>
+                           <a href={item.link}>{item.link}</a>
+                           <p>
+                              <span>Published: {item.pubDate}</span>
+                           </p>
+                        </li>
+                     )}
                   </ul>
 		         </div>
             </aside>

@@ -15,7 +15,7 @@
       "zip": "500081"
     },
     "website": "http://www.kurtesy.tech",
-    "resumedownload":"http://www.kurtesy.tech/mera_parichay",
+    "resumedownload":"https://github.com/kurtesy/Resume/blob/main/Nishant_Patel_Full_Stack_Engineer.pdf",
     "social":[
       {
         "name":"facebook",
@@ -70,7 +70,7 @@
         "company":"Aviso AI",
         "title":"Senior Full-stack Developer",
         "years":"April 2020 - Present",
-        "description":"Working as a full stack developer on Aviso app, which provides sales prediction and insights to its clients. My reponsibilities are to develop API on Python and consume them on front end VueJS."
+        "description":"Working as a full-stack developer on the Aviso app, which provides sales prediction and insights to its clients. My responsibilities are to develop APIs in Python and consume them on front-end VueJS."
       },
       {
         "company":"Brand Networks",
