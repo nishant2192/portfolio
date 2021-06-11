@@ -2,7 +2,7 @@
   "main": {
     "name":"Nishant Patel",
     "occupation":"Full Stack Developer",
-    "description":"I am a full stack developer, have been working in software industry since past 6 years have transitioned between various technologies.",
+    "description":"I am a full stack developer, have been working in software industry since past 7 years have transitioned between various technologies.",
     "image":"profile_pic.jpg",
     "bio":"Java to Python to Data Science aspect to Front end React Native and now in Vue JS. I love to try new things, amalgamate 2 different tech stack like Python(Django) with Integrated support for React Native. React JS with Fabric JS. Also competitive coding especially i am fond of Code Golfing",
     "contactmessage":"If you wanna talk to me, feel free to drop me a email or reach out to me on linkedin",
@@ -45,7 +45,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Python Developer and JavaScript Developer with total 4+ years of experience in Python and 2+ years of experience in JavaScript. Overall, 6 years of experience in Software Development, Database Development and End to end application deployment.",
+    "skillmessage":"Python Developer and JavaScript Developer with total 5+ years of experience in Python and 2+ years of experience in JavaScript. Overall, 7 years of experience in Software Development, Database Development and End to end application deployment.",
     "education":[
       {
         "school":"MANIT, Bhopal",

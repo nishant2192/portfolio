@@ -2,24 +2,22 @@ import React, { Component } from 'react';
 import Carousel from "react-multi-carousel";
 import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, Button, CardHeader } from '@material-ui/core'
 import "react-multi-carousel/lib/styles.css";
+import '../Styles/portfolio.scss';
 
 
 class Portfolio extends Component {
   styles = 
     {
       card: {
-        maxWidth: 345,
+        maxWidth: 280,
         height: 380,
         margin: 10,
         border: 'solid grey 1px',
-        backgroundColor: '#99696933'
+        backgroundColor: ''
       },
       media: {
         height: 0,
         paddingTop: '56.25%', // 16:9
-      },
-      carouselArrow: {
-        
       }
     };
   responsive = {
@@ -47,13 +45,14 @@ class Portfolio extends Component {
         responsive={this.responsive}
         infinite={true}
         autoPlay={true}
-        autoPlaySpeed={5000}
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
+        autoPlaySpeed={50000}
         renderDotsOutside={true}
         swipeable={true}
         showDots={true}
-        containerClass={this.styles.carouselArrow} >
+        removeArrowOnDeviceType={["tablet", "mobile"]}
+        deviceType={this.props.deviceType}
+        itemClass="carousel-item-padding-40-px"
+        containerClass="carousel-container" >
         {
             this.props.data.projects.map( (project, index) => 
             <div key={index}>
