@@ -10,12 +10,10 @@ class Contact extends Component {
      this.getMyBlogFeeds();
   }
 
-  
-
   async getMyBlogFeeds () {
    let parser = new Parser({defaultRSS: 1.0});
    const CORS_PROXY = "https://thingproxy.freeboard.io/fetch/"
-   const feed = await parser.parseURL('https://kurtesyofacoder.blogspot.com/feeds/posts/default?alt=rss');
+   const feed = await parser.parseURL(CORS_PROXY + 'https://kurtesyofacoder.blogspot.com/feeds/posts/default?alt=rss');
    this.setState({rssFeeds: feed.items.splice(0,3)});
    return null;
   }

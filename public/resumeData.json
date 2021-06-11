@@ -41,11 +41,6 @@
         "name":"github",
         "url":"http://github.com/kurtesy",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -99,32 +94,32 @@
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"75%"
-      },
-      {
         "name":"Python",
         "level":"90%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
+        "name":"JavaScript",
         "level":"60%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name":"HTML & CSS",
+        "level":"70%"
       },
       {
-        "name":"VueJs",
+        "name":"SQL",
+        "level":"70%"
+      },
+      {
+        "name":"Java",
         "level":"50%"
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name":"VueJs/React",
+        "level":"65%"
+      },
+      {
+        "name":"MongoDB/Redis",
+        "level":"50%"
       }
     ]
   },
@@ -153,24 +148,18 @@
         "category":"React Native app, to fetch you all the superhero data...just a search away",
         "image":"app_preview.png",
         "url":"https://github.com/kurtesy/HomeToSuperheros"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
       }
     ]
   },
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"'Python tricks' is a tough one, cuz the language is so clean. E.g., C makes an art of confusing pointers with arrays and strings, which leads to lotsa neat pointer tricks; APL mistakes everything for an array, leading to neat one-liners; and Perl confuses everything period, making each line a joyous adventure ;-)",
+        "user":"Tim Peters"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"Give a man a fish and you feed him for a day; teach a man to use the newest JavaScript framework you feed him for… five to six months.",
+        "user":"Anonymous"
       }
     ]
   }
